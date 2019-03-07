@@ -1,5 +1,6 @@
 begin
   gem 'minitest', '>= 5.0.0'
+
   require 'minitest/autorun'
   require_relative 'hello_world'
 rescue Gem::LoadError => e
@@ -10,7 +11,7 @@ rescue LoadError => e
   puts DATA.read
   exit 1
 end
-
+require 'minitest/pride'
 # Common test data version: 1.1.0 be3ae66
 class HelloWorldTest < Minitest::Test
   def test_say_hi
