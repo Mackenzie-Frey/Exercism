@@ -1,4 +1,2 @@
-# class HelloWorldTest::HelloWorld
-#
-#
-# end
+class HelloWorld
+end
